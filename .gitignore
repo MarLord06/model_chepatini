@@ -1,0 +1,41 @@
+# Virtual environments
+.venv/
+./venv/
+venv/
+.env/
+
+# Data - images are too large for git
+data/train_images/
+data/test_images/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Checkpoints - only keep best models (checkpoint_epoch_* are too large)
+checkpoints/**/checkpoint_epoch_*.pth
+
+# Large visualization files (optional)
+# visualizations/

@@ -1,0 +1,10 @@
+{
+  "classifier": {
+    "epochs": 1,
+    "batch_size": 4
+  },
+  "segmentation": {
+    "epochs": 1,
+    "batch_size": 2
+  }
+}
